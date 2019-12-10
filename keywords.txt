@@ -1,0 +1,17 @@
+MLX90640	KEYWORD1
+
+MLX90640_DumpEE                 KEYWORD2
+MLX90640_GetFrameData           KEYWORD2
+MLX90640_ExtractParameters      KEYWORD2
+MLX90640_GetVdd                 KEYWORD2
+MLX90640_GetTa                  KEYWORD2
+MLX90640_GetImage               KEYWORD2
+MLX90640_CalculateTo            KEYWORD2
+MLX90640_SetResolution          KEYWORD2
+MLX90640_GetCurResolution       KEYWORD2
+MLX90640_SetRefreshRate         KEYWORD2
+MLX90640_GetRefreshRate         KEYWORD2
+MLX90640_GetSubPageNumber       KEYWORD2
+MLX90640_GetCurMode             KEYWORD2
+MLX90640_SetInterleavedMode     KEYWORD2
+MLX90640_SetChessMod	        KEYWORD2

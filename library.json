@@ -1,0 +1,21 @@
+{
+  "name": "Seeed_Arduino_MLX90640",
+  "version": "1.0.0",
+  "keywords": "MLX90640, IR",
+  "description": "A arduino library for MLX90640 sensor",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Seeed-Studio/Seeed_Arduino_MLX90640"
+  },
+  "authors":
+  [
+    {
+        "name": "Baozhu zuo",
+        "email": "baozhu.zuo@gmail.com",
+        "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*2"
+}
