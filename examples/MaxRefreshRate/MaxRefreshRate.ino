@@ -63,14 +63,14 @@ void setup()
 
   //Set refresh rate
   //A rate of 0.5Hz takes 4Sec per reading because we have to read two frames to get complete picture
-  //MLX90640_SetRefreshRate(MLX90640_address, 0x00); //Set rate to 0.25Hz effective - Works
-  //MLX90640_SetRefreshRate(MLX90640_address, 0x01); //Set rate to 0.5Hz effective - Works
-  //MLX90640_SetRefreshRate(MLX90640_address, 0x02); //Set rate to 1Hz effective - Works
-  //MLX90640_SetRefreshRate(MLX90640_address, 0x03); //Set rate to 2Hz effective - Works
-  MLX90640_SetRefreshRate(MLX90640_address, 0x04); //Set rate to 4Hz effective - Works
-  //MLX90640_SetRefreshRate(MLX90640_address, 0x05); //Set rate to 8Hz effective - Works at 800kHz
-  //MLX90640_SetRefreshRate(MLX90640_address, 0x06); //Set rate to 16Hz effective - Works at 800kHz
-  //MLX90640_SetRefreshRate(MLX90640_address, 0x07); //Set rate to 32Hz effective - fails
+  //MLX90640_SetRefreshRate(MLX90640_address, 0x00); //Set rate to 0.5Hz effective - Works
+  //MLX90640_SetRefreshRate(MLX90640_address, 0x01); //Set rate to 1Hz effective - Works
+  //MLX90640_SetRefreshRate(MLX90640_address, 0x02); //Set rate to 2Hz effective - Works
+  //MLX90640_SetRefreshRate(MLX90640_address, 0x03); //Set rate to 4Hz effective - Works
+  MLX90640_SetRefreshRate(MLX90640_address, 0x04); //Set rate to 8Hz effective - Works
+  //MLX90640_SetRefreshRate(MLX90640_address, 0x05); //Set rate to 16Hz effective - Works at 800kHz
+  //MLX90640_SetRefreshRate(MLX90640_address, 0x06); //Set rate to 32Hz effective - Works at 800kHz
+  //MLX90640_SetRefreshRate(MLX90640_address, 0x07); //Set rate to 64Hz effective - fails
 
   //Once EEPROM has been read at 400kHz we can increase to 1MHz
   Wire.setClock(1000000); //Teensy will now run I2C at 800kHz (because of clock division)
