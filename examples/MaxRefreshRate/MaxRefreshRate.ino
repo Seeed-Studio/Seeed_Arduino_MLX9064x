@@ -13,7 +13,7 @@
     #define debug  Serial
 
 #elif defined(ARDUINO_ARCH_SAMD) ||  defined(ARDUINO_ARCH_SAM)
-    #define debug  SerialUSB
+    #define debug  Serial
 #else
     #define debug  Serial
 #endif
