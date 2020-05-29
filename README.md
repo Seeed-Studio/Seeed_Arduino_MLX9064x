@@ -1,6 +1,6 @@
-# Seeed Arduino MLX90640  [![Build Status](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX90640.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX90640)
+# Seeed Arduino MLX90640  [![Build Status](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX9064x.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX9064x)
 
-The inspiration for this product came from  [Melexis's mlx90640](https://github.com/melexis/mlx90640-library/).   This relies on the driver written by Melexis.
+The inspiration for this product came from  [Melexis's mlx90640](https://github.com/melexis/mlx90640-library/) and [Melexis's mlx90641](https://github.com/melexis/mlx90641-library/).   This relies on the driver written by Melexis.
 
 ## Introduction
 
@@ -17,7 +17,8 @@ This module connects the MCU with the I2C interface. However, it needs an MCU wh
 pip3 install seeed_python_ircamera
 
 #PortName is like COM1,COM2 in Windows system.
-ircamera PortName
+#MLX90640 is an optional chip type , MLX90640 or MLX90641 can be supported for now.
+ircamera PortName MLX90640
 ``` 
 
 ![](https://raw.githubusercontent.com/SeeedDocument/IR-thermal-imaging-sensor-MLX90640-/master/20191121_173909.gif)
