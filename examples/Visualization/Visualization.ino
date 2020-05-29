@@ -5,7 +5,7 @@
 #include <Wire.h>
 
 #include "MLX90640_API.h"
-#include "MLX90640_I2C_Driver.h"
+#include "MLX9064X_I2C_Driver.h"
 
 #if defined(ARDUINO_ARCH_AVR)
     #define debug  Serial
