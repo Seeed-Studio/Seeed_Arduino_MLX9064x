@@ -1,4 +1,4 @@
-# Seeed Arduino MLX90640  [![Build Status](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX9064x.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX9064x)
+# Seeed Arduino MLX90640  [![Build Status](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX90640.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Seeed_Arduino_MLX90640)
 
 The inspiration for this product came from  [Melexis's mlx90640](https://github.com/melexis/mlx90640-library/) and [Melexis's mlx90641](https://github.com/melexis/mlx90641-library/).   This relies on the driver written by Melexis.
 
